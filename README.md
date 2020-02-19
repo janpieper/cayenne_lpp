@@ -57,6 +57,16 @@ libraries written in other programming languages:
   * [Cayenne Cloud](https://developers.mydevices.com/) by [myDevices](https://mydevices.com/)
   * [TheThingsNetwork](https://www.thethingsnetwork.org/)
 
+## Hardware
+
+While developing this library, the following hardware has been used to test
+the integration with [TheThingsNetwork](https://www.thethingsnetwork.org/) and
+[Cayenne Cloud](https://developers.mydevices.com/):
+
+* [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+* [IoT LoRa Node pHAT for Raspberry Pi (Multi Frequence)](https://uk.pi-supply.com/products/iot-lora-node-phat-for-raspberry-pi)
+* [RAK7258 Micro Gateway](https://store.rakwireless.com/products/rak7258-micro-gateway?variant=26678395568228)
+
 ## TODOs
 
 * [ ] Publish to [hex.pm](https://hex.pm/)
