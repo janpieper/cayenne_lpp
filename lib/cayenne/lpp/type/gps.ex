@@ -1,5 +1,22 @@
 defmodule Cayenne.LPP.Type.GPS do
-  @moduledoc "Cayenne LPP type for GPS"
+  @moduledoc """
+  Cayenne LPP type for GPS
+
+  ### Example
+
+  ```elixir
+  alias Cayenne.LPP.{Buffer, Encoder}
+  alias Cayenne.LPP.Type.GPS
+
+  buffer =
+    [lat: 51.4163, lon: 6.5433, alt: 49]
+    |> GPS.new()
+    |> Encoder.encode(temperature)
+
+  Buffer.to_string(buffer) # "8807D87300FF99001324"
+  Buffer.size(buffer) # 10
+  ```
+  """
 
   @type t :: %__MODULE__{
           lat: number(),

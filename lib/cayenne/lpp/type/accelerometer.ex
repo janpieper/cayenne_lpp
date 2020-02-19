@@ -1,5 +1,22 @@
 defmodule Cayenne.LPP.Type.Accelerometer do
-  @moduledoc "Cayenne LPP type for a 3-axis accelerometer"
+  @moduledoc """
+  Cayenne LPP type for a 3-axis accelerometer
+
+  ### Example
+
+  ```elixir
+  alias Cayenne.LPP.{Buffer, Encoder}
+  alias Cayenne.LPP.Type.Accelerometer
+
+  buffer =
+    [x: 0.131789, y: 0.122113, z: 0.937282]
+    |> Accelerometer.new()
+    |> Encoder.encode()
+
+  Buffer.to_string(buffer) # "710084007A03A9"
+  Buffer.size(buffer) # 7
+  ```
+  """
 
   @type t :: %__MODULE__{
           x: number(),

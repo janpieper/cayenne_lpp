@@ -1,5 +1,30 @@
 defmodule Cayenne.LPP.Payload do
-  @moduledoc "Payload struct which stores a single Cayenne LPP message"
+  @moduledoc """
+  This module is used to build a Cayenne LPP payload, which can be used to
+  send it via a LoRa node to a LoRa Gateway
+
+  ### Example
+
+  ```elixir
+  alias Cayenne.LPP.Payload
+  alias Cayenne.LPP.Type.{Temperature, RelativeHumidity}
+
+  payload =
+    Payload.new()
+    |> Payload.add(1, Temperature.new(28.3))
+    |> Payload.add(2, RelativeHumidity.new(40.5))
+
+  # Payload as String: "0167011B02680195"
+  payload
+  |> Payload.to_string()
+  |> IO.inspect(label: "Payload as String")
+
+  # Payload size (in bytes): 8
+  payload
+  |> Payload.size()
+  |> IO.inspect(label: "Payload size (in bytes)")
+  ```
+  """
 
   alias Cayenne.LPP.{Buffer, Encoder}
 

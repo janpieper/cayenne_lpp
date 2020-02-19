@@ -1,5 +1,23 @@
 defmodule Cayenne.LPP.Buffer do
-  @moduledoc false
+  @moduledoc """
+  This buffer module stores the data for `Cayenne.LPP.Payload` or any
+  Cayenne LPP type
+
+  ### Example
+
+  ```elixir
+  alias Cayenne.LPP.Buffer
+
+  buffer =
+    Buffer.new()
+    |> Buffer.add_byte(0x28)
+    |> Buffer.add_bytes(0xFF, 2)
+    |> Buffer.add_bytes(0x1234, 2)
+
+  Buffer.to_string(buffer) # "2800FF1234"
+  Buffer.size(buffer) # 5
+  ```
+  """
 
   require Bitwise
 

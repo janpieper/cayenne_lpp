@@ -1,5 +1,22 @@
 defmodule Cayenne.LPP.Type.Gyrometer do
-  @moduledoc "Cayenne LPP type for a 3-axis gyrometer"
+  @moduledoc """
+  Cayenne LPP type for a 3-axis gyrometer
+
+  ### Example
+
+  ```elixir
+  alias Cayenne.LPP.{Buffer, Encoder}
+  alias Cayenne.LPP.Type.Gyrometer
+
+  buffer =
+    [x: 24.474, y: -1.104, z: -5.456]
+    |> Gyrometer.new()
+    |> Encoder.encode()
+
+  Buffer.to_string(buffer) # "865F9AFBB0EAB0"
+  Buffer.size(buffer) # 7
+  ```
+  """
 
   @type t :: %__MODULE__{
           x: number(),
