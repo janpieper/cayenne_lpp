@@ -35,6 +35,13 @@ payload
 |> IO.inspect(label: "Payload size (in bytes)")
 ```
 
+## TODOs
+
+* [ ] Publish to [hex.pm](https://hex.pm/)
+* [ ] Publish docs to [hexdocs.pm](https://hexdocs.pm/)
+* [ ] Support decoding, not just encoding
+* [ ] _TBD_
+
 ## License
 
 This software is licensed unter [the MIT license](LICENSE.md)
