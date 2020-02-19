@@ -1,6 +1,8 @@
 defmodule Cayenne.LPP.Buffer do
   @moduledoc false
 
+  require Bitwise
+
   @type value :: number()
   @type size :: pos_integer()
 

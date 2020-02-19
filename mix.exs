@@ -5,7 +5,7 @@ defmodule Cayenne.MixProject do
     [
       app: :cayenne_lpp,
       version: "0.1.0",
-      elixir: "~> 1.10",
+      elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       test_coverage: [tool: ExCoveralls],
