@@ -45,6 +45,7 @@ libraries written in other programming languages:
   * [Cayenne Low Power Payload](https://developers.mydevices.com/cayenne/docs/lora/#lora-cayenne-low-power-payload)
   * [Cayenne LPP 2.0](https://community.mydevices.com/t/cayenne-lpp-2-0/7510/1)
   * [Cayenne LPP @ loranow.com](https://loranow.com/cayennelpp/)
+  * [Getting Started with the Raspberry Pi LoRa Node pHAT](https://learn.pi-supply.com/make/getting-started-with-the-raspberry-pi-lora-node-phat/)
 * **Libraries**
   * https://github.com/myDevicesIoT/CayenneLPP (C++)
   * https://github.com/TheThingsNetwork/arduino-device-lib (C)
