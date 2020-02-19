@@ -1,4 +1,4 @@
-# cayenne_lpp
+# cayenne_lpp [![Build Status](https://github.com/janpieper/cayenne_lpp/workflows/Elixir%20CI/badge.svg "Build Status")]
 
 Elixir library for Cayenne Low Power Payload (LPP) format
 
