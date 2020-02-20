@@ -45,7 +45,7 @@ defmodule Cayenne.MixProject do
       maintainers: ["Jan Pieper"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/janpieper/cayenne_lpp"},
-      files: ["lib", "test", "mix.exs", "README.md", "LICENSE.md", ".formatter.exs"]
+      files: ["lib", "mix.exs", "README.md", "LICENSE.md", ".formatter.exs"]
     ]
   end
 
