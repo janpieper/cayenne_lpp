@@ -73,7 +73,7 @@ the integration with [TheThingsNetwork](https://www.thethingsnetwork.org/) and
 * [ ] Publish to [hex.pm](https://hex.pm/)
 * [ ] Publish docs to [hexdocs.pm](https://hexdocs.pm/)
 * [ ] Support decoding, not just encoding
-* [ ] _TBD_
+* [ ] Add example using [circuits_uart](https://github.com/elixir-circuits/circuits_uart)
 
 ## License
 
