@@ -70,8 +70,8 @@ the integration with [TheThingsNetwork](https://www.thethingsnetwork.org/) and
 
 ## TODOs
 
-* [ ] Publish to [hex.pm](https://hex.pm/)
-* [ ] Publish docs to [hexdocs.pm](https://hexdocs.pm/)
+* [x] Publish to [hex.pm](https://hex.pm/)
+* [x] Publish docs to [hexdocs.pm](https://hexdocs.pm/)
 * [ ] Support decoding, not just encoding
 * [ ] Add example using [circuits_uart](https://github.com/elixir-circuits/circuits_uart)
 
