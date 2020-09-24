@@ -4,7 +4,7 @@ Elixir library for Cayenne Low Power Payload (LPP) format
 
 ## Installation
 
-The package can be installated by adding `cayenne_lpp` to your list of
+The package can be installed by adding `cayenne_lpp` to your list of
 dependencies in `mix.exs`:
 
 ```elixir
@@ -77,4 +77,4 @@ the integration with [TheThingsNetwork](https://www.thethingsnetwork.org/) and
 
 ## License
 
-This software is licensed unter [the MIT license](LICENSE.md)
+This software is licensed under [the MIT license](LICENSE.md)
