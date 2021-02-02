@@ -30,7 +30,7 @@ defmodule Cayenne.MixProject do
     [
       {:excoveralls, "~> 0.12.2", only: [:test]},
       {:credo, "~> 1.1.5", only: [:dev], runtime: false},
-      {:dialyxir, "~> 1.0.0-rc.7", only: [:dev], runtime: false},
+      {:dialyxir, "~> 1.0.0", only: [:dev], runtime: false},
       {:ex_doc, "~> 0.21.3", only: [:dev], runtime: false}
     ]
   end
